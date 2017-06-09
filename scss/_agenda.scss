@@ -1,0 +1,29 @@
+// Styling for the agenda section
+section.agenda {
+//     color: white;
+//     position: relative;
+//     padding: 150px 0;
+    h3 {
+        // font-size: 50px;
+        margin-top: 40px;
+    }
+    @media(min-width: 768px) {
+        h3 {
+            margin-top: 60px;
+            // font-size: 70px;
+        }
+    }
+
+    .divider-flag {
+        height: 50px;
+        width: 125vw;
+        margin-left: -25vw;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        transform: skewY(-5deg);
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
