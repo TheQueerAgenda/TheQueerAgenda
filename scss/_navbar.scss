@@ -5,8 +5,8 @@
     @include transition-all;
     @include heading-font;
     .navbar-brand {
-        color: $gray-darker;
-        @include heading-font;
+        color: white;
+        @include title-font;
         &:hover,
         &:focus {
             color: darken($theme-primary, 10%);
