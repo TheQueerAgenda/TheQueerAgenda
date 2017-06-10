@@ -13,12 +13,12 @@ body {
   font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif'; }
 
 a {
-  color: #fdcc52;
+  color: #7b4397;
   -webkit-transition: all .35s;
   -moz-transition: all .35s;
   transition: all .35s; }
   a:hover, a:focus {
-    color: #fcbd20; }
+    color: #5e3374; }
 
 hr {
   max-width: 100px;
@@ -45,7 +45,7 @@ p {
   margin-bottom: 20px; }
 
 section {
-  padding: 100px 0; }
+  padding: 50px 0; }
   section h2 {
     font-size: 50px; }
 
@@ -83,7 +83,7 @@ body {
     color: white;
     font-family: 'Bungee Shade', 'Helvetica', 'Arial', 'sans-serif'; }
     #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
-      color: #fcbd20; }
+      color: #5e3374; }
   #mainNav .navbar-toggler {
     font-size: 12px;
     padding: 8px 10px;
@@ -138,9 +138,13 @@ header.masthead {
   width: 100%;
   min-height: auto;
   color: white;
-  background: url("../img/bg-pattern.png"), #7b4397;
-  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430); }
+  background: url("../img/bg-pattern.png"), #fdcc52;
+  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #412A4C, #7b4397);
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, #412A4C, #7b4397); }
+  header.masthead .hero-img {
+    width: 90%; }
+    header.masthead .hero-img img {
+      width: 100%; }
   header.masthead .header-content {
     position: relative;
     padding: 150px 0 50px;
@@ -153,11 +157,6 @@ header.masthead {
         font-size: 30px;
         margin-top: 0;
         margin-bottom: 30px; }
-      header.masthead .header-content .header-content-inner .list-badges {
-        margin-bottom: 25px; }
-        header.masthead .header-content .header-content-inner .list-badges img {
-          height: 50px;
-          margin-bottom: 25px; }
   @media (min-width: 768px) {
     header.masthead {
       min-height: 100%; }
@@ -198,8 +197,7 @@ section.agenda h3 {
 
 section.agenda .divider-flag {
   height: 50px;
-  width: 125vw;
-  margin-left: -25vw;
+  width: 100vw;
   margin-top: 40px;
   margin-bottom: 40px;
   transform: skewY(-5deg); }
@@ -224,14 +222,14 @@ footer {
         text-decoration: none; }
 
 .bg-primary {
-  background: #fdcc52;
-  background: -webkit-linear-gradient(#fdcc52, #fdc539);
-  background: linear-gradient(#fdcc52, #fdc539); }
-
-.bg-secondary {
   background: #7b4397;
   background: -webkit-linear-gradient(#7b4397, #6d3b85);
   background: linear-gradient(#7b4397, #6d3b85); }
+
+.bg-secondary {
+  background: #fdcc52;
+  background: -webkit-linear-gradient(#fdcc52, #fdc539);
+  background: linear-gradient(#fdcc52, #fdc539); }
 
 .bg-tertiary {
   background: #dc2430;
@@ -239,7 +237,7 @@ footer {
   background: linear-gradient(#dc2430, #c7202b); }
 
 .text-primary {
-  color: #fdcc52; }
+  color: #7b4397; }
 
 .no-gutter > [class*='col-'] {
   padding-right: 0;
@@ -251,8 +249,8 @@ footer {
   border-color: white; }
   .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
     color: white;
-    border-color: #fdcc52;
-    background-color: #fdcc52; }
+    border-color: #7b4397;
+    background-color: #7b4397; }
 
 .btn {
   border-radius: 300px;
