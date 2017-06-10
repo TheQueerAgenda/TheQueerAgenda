@@ -3,13 +3,15 @@ section.agenda {
 //     color: white;
 //     position: relative;
 //     padding: 150px 0;
-    h3 {
+    h2 {
         // font-size: 50px;
-        margin-top: 40px;
+        margin-top: 20px;
+        margin-bottom: 40px;
     }
     @media(min-width: 768px) {
-        h3 {
-            margin-top: 60px;
+        h2 {
+            margin-top: 20px;
+            margin-bottm: 60px;
             // font-size: 70px;
         }
     }

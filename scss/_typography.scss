@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Bungee|Bungee+Shade|Pacifico');
 
 @mixin heading-font {
-    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+    // font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+    font-family: 'Bungee Shade', 'Helvetica', 'Arial', 'sans-serif';
     font-weight: 200;
     letter-spacing: 1px;
 }
@@ -18,4 +19,8 @@
 
 @mixin title-font {
   font-family: 'Bungee Shade', 'Helvetica', 'Arial', 'sans-serif';
+}
+
+@mixin bungee-font {
+  font-family: 'Bungee', 'Helvetica', 'Arial', 'sans-serif';
 }

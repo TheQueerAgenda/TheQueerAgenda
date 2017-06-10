@@ -8,12 +8,6 @@ header.masthead {
     background: url('../img/bg-pattern.png'), $theme-secondary;
     background: url('../img/bg-pattern.png'), -webkit-linear-gradient(to left, $masthead-left, $masthead-right);
     background: url('../img/bg-pattern.png'), linear-gradient(to left, $masthead-left, $masthead-right);
-    .hero-img {
-        width: 90%;
-        img {
-            width: 100%;
-        }
-    }
     .header-content {
         position: relative;
         padding: 150px 0 50px;
@@ -22,10 +16,32 @@ header.masthead {
             position: relative;
             max-width: 500px;
             margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             h1 {
                 font-size: 30px;
                 margin-top: 0;
                 margin-bottom: 30px;
+            }
+            .hero-img {
+                // margin-top: 100px;
+                // width: 90%;
+                img {
+                    width: 100%;
+                }
+            }
+            .hero-buttons {
+                display: flex;
+                width: 100%;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                margin: 50px auto;
+                a {
+                    margin: 10px 0;
+                    font-size: 20px;    
+                    @include bungee-font;
+                }
             }
         }
     }
@@ -37,13 +53,16 @@ header.masthead {
             padding: 0;
             text-align: left;
             .header-content-inner {
-                position: absolute;
-                top: 50%;
-                max-width: none;
-                margin: 0;
-                transform: translateY(-50%);
+                // position: absolute;
+                // top: 50%;
+                max-width: 800px;
+                margin: 100px auto 0;
+                // transform: translateY(-50%);
                 h1 {
                     font-size: 35px;
+                }
+                .hero-img {
+                    // max-height: 80vh;
                 }
             }
         }

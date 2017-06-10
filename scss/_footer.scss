@@ -4,9 +4,13 @@ footer {
     text-align: center;
     color: fade-out(white, .7);
     background-color: $gray-darker;
+    .container {
+        display: flex;
+        justify-content: center;
+    }  
     p {
         font-size: 12px;
-        margin: 0;
+        margin: 0 10px;
     }
     ul {
         margin-bottom: 0;

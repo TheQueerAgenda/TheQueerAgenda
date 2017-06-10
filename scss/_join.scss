@@ -2,14 +2,31 @@
 section.join {
     color: white;
     position: relative;
-    padding: 150px 0;
+    padding: 75px 0;
     h2 {
         font-size: 50px;
         margin-top: 0;
     }
+    .submit-form {
+        width: 90%;
+        height: 700px
+    }
     @media(min-width: 768px) {
         h2 {
             font-size: 70px;
+        }
+        .submit-form {
+            width: 75%;
+        }
+    }
+    @media(min-width: 1366px) {
+        padding: 0 0 75px;
+        h2 {
+            position: relative;
+            top: 100px;
+        }
+        .submit-form {
+            height: 740px;
         }
     }
 }

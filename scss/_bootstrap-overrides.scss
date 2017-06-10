@@ -7,8 +7,8 @@
 
 .bg-secondary {
     background: $theme-secondary;
-    background: -webkit-linear-gradient($theme-secondary, darken($theme-secondary, 5%));
-    background: linear-gradient($theme-secondary, darken($theme-secondary, 5%));
+    // background: -webkit-linear-gradient($theme-secondary, darken($theme-secondary, 5%));
+    // background: linear-gradient($theme-secondary, darken($theme-secondary, 5%));
 }
 
 .bg-tertiary {

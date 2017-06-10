@@ -5,7 +5,7 @@
     @include transition-all;
     @include heading-font;
     .navbar-brand {
-        color: white;
+        color: $gray-darker;
         @include title-font;
         &:hover,
         &:focus {
@@ -32,7 +32,7 @@
             }
             > a,
             > a:focus {
-                color: $gray-darker;
+                color: white;
                 &:hover {
                     color: white;
                 }
@@ -43,10 +43,10 @@
         border-color: transparent;
         background-color: transparent;
         .navbar-brand {
-            color: fade(white, 70%);
+            color: white;
             &:hover,
             &:focus {
-                color: white;
+                color: $gray-darker;
             }
         }
         .navbar-nav > li > a,
