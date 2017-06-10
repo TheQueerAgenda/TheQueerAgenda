@@ -85,6 +85,9 @@ body {
     font-family: 'Bungee Shade', 'Helvetica', 'Arial', 'sans-serif'; }
     #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
       color: #5e3374; }
+    @media (max-width: 450px) {
+      #mainNav .navbar-brand {
+        font-size: 15px; } }
   #mainNav .navbar-toggler {
     font-size: 12px;
     padding: 8px 10px;

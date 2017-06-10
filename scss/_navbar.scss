@@ -11,6 +11,9 @@
         &:focus {
             color: darken($theme-primary, 10%);
         }
+        @media (max-width: 450px) {
+            font-size: 15px;
+        }
     }
     .navbar-toggler {
         font-size: 12px;
